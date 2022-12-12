@@ -31,12 +31,13 @@ class MainActivity : AppCompatActivity() {
         if (id == R.id.menu_places) {
             return true
         }
-        if (id == R.id.menu_email) {
-            return true
-        }
         if (id == R.id.menu_about) {
             return true
         }
+        if (id == R.id.menu_email) {
+            return true
+        }
+
 
         return super.onOptionsItemSelected(item)
 
