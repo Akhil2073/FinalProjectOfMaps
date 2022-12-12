@@ -31,10 +31,13 @@ class MainActivity : AppCompatActivity() {
         if (id == R.id.menu_places) {
             return true
         }
-        if (id == R.id.menu_about) {
+
+        if (id == R.id.menu_email) {
             return true
         }
-        if (id == R.id.menu_email) {
+
+        // This code is upside down
+        if (id == R.id.menu_about) {
             return true
         }
 
